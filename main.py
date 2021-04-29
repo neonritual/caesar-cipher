@@ -35,7 +35,9 @@ def encrypt(text, shift):
     outcode = alphabet[index + shift]
     x += 1
     cipher_list.append(outcode)
-  print(f"The encoded text is " + ''.join(list1))    
+  print(*cipher_list, sep='' )    
+
+  
    
 encrypt(text, shift)
 
